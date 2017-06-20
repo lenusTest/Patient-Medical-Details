@@ -1,5 +1,9 @@
 package com.example.demo;
 
+import lombok.Data;
+
+@Data
+
 public class TestStub {
 
 	private String name;
@@ -18,52 +22,6 @@ public class TestStub {
 	}
 
 
-	public String getAddress() {
-		return address;
-	}
-
-	public void setAddress(String address) {
-		this.address = address;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-
-	public long getPhone() {
-		return phone;
-	}
-
-	public void setPhone(long phone) {
-		this.phone = phone;
-	}
-
-	public int getRecodNo() {
-		return recodNo;
-	}
-
-	public void setRecodNo(int recodNo) {
-		this.recodNo = recodNo;
-	}
-
-	public String getGender() {
-		return gender;
-	}
-
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
+	
 
 }
